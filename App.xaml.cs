@@ -1,19 +1,19 @@
-using AirDropLike.App.ViewModels;
-using AirDropLike.Core.Crypto;
-using AirDropLike.Core.Discovery;
-using AirDropLike.Core.Transfer;
-using AirDropLike.Infrastructure.Crypto;
-using AirDropLike.Infrastructure.Discovery;
-using AirDropLike.Infrastructure.Transfer;
+using OpenDrop.App.ViewModels;
+using OpenDrop.Core.Crypto;
+using OpenDrop.Core.Discovery;
+using OpenDrop.Core.Transfer;
+using OpenDrop.Infrastructure.Crypto;
+using OpenDrop.Infrastructure.Discovery;
+using OpenDrop.Infrastructure.Transfer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.UI.Xaml.Navigation;
 using Serilog;
 using Serilog.Extensions.Logging;
-using AirDropLike.App.Views;
+using OpenDrop.App.Views;
 
-namespace AirDropLike.App
+namespace OpenDrop.App
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -74,7 +74,7 @@ namespace AirDropLike.App
 
         private static IHost CreateHost()
         {
-            var logDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "AirDropLike", "Logs");
+            var logDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "OpenDrop", "Logs");
             Directory.CreateDirectory(logDir);
 
             Log.Logger = new LoggerConfiguration()
@@ -95,7 +95,7 @@ namespace AirDropLike.App
                     services.AddSingleton<IAead, AesGcmAead>();
 
                     var port = 8777;
-                    var incoming = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "AirDropLike", "Incoming");
+                    var incoming = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "OpenDrop", "Incoming");
                     var tsOptions = new TransferServerOptions(
                         BindAddress: "0.0.0.0",
                         Port: port,
@@ -136,7 +136,7 @@ namespace AirDropLike.App
 
         private static string GetOrCreateDeviceId()
         {
-            var dir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "AirDropLike");
+            var dir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "OpenDrop");
             Directory.CreateDirectory(dir);
             var path = Path.Combine(dir, "deviceid.txt");
             if (File.Exists(path))

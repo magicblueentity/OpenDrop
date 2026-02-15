@@ -1,0 +1,12 @@
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\bin\Release\net8.0\OpenDrop.Core.deps.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\bin\Release\net8.0\OpenDrop.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\bin\Release\net8.0\OpenDrop.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.AssemblyInfoInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.AssemblyInfo.cs
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.sourcelink.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\refint\OpenDrop.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\OpenDrop.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Core\obj\Release\net8.0\ref\OpenDrop.Core.dll

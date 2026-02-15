@@ -1,6 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace AirDropLike.App.ViewModels;
+namespace OpenDrop.App.ViewModels;
 
 public sealed partial class DeviceViewModel : ObservableObject
 {

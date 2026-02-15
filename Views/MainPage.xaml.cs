@@ -1,12 +1,12 @@
-using AirDropLike.App.ViewModels;
-using AirDropLike.Core.Discovery;
-using AirDropLike.Core.Devices;
+using OpenDrop.App.ViewModels;
+using OpenDrop.Core.Discovery;
+using OpenDrop.Core.Devices;
 using Microsoft.UI.Dispatching;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 
-namespace AirDropLike.App.Views
+namespace OpenDrop.App.Views
 {
     /// <summary>
     /// A simple page that can be used on its own or navigated to within a Frame.

@@ -1,9 +1,9 @@
-# AirDropLike (Windows)
+﻿# OpenDrop (Windows)
+Made by Samuel J. Tirwa. An open, secure Windows alternative to AirDrop.
 
 AirDrop-like local file transfer for Windows with:
 - Automatic nearby device discovery (UDP broadcast; replaceable with mDNS later)
-- Automatic nearby device discovery (UDP broadcast)
-- End-to-end encrypted file payloads (X25519 + HKDF-SHA256 + AES-256-GCM)
+- End-to-end encrypted file payloads (ECDH P-256 + HKDF-SHA256 + AES-256-GCM)
 - Chunked transfer with resume support (byte offset)
 - WinUI 3 UI (Windows App SDK) with drag-and-drop send
 
@@ -13,10 +13,10 @@ This repository does **not** implement Apple’s proprietary/private AirDrop sta
 This project targets an **open** and **secure** AirDrop-like UX that can be extended to other platforms with compatible clients.
 
 ## Project Structure
-- `AirDropLike.Core/`: domain models + interfaces (discovery/crypto/transfer)
-- `AirDropLike.Infrastructure/`: discovery + crypto + transfer server/client implementation
-- `AirDropLike.App.csproj`: WinUI 3 application (UI, tray/toast placeholders)
-- `AirDropLike.Tests/`: unit tests (path safety, crypto round-trip)
+- `OpenDrop.Core/`: domain models + interfaces (discovery/crypto/transfer)
+- `OpenDrop.Infrastructure/`: discovery + crypto + transfer server/client implementation
+- `OpenDrop.App.csproj`: WinUI 3 application (UI, tray/toast placeholders)
+- `OpenDrop.Tests/`: unit tests (path safety, crypto round-trip)
 
 ## Build
 Prereqs: Windows 11, .NET SDK 8.x, Visual Studio 2022 with WinUI 3 tooling recommended.
@@ -28,16 +28,16 @@ dotnet build
 ```
 
 ## Run
-Open the solution `AirDropLike.sln` in Visual Studio and run `AirDropLike.App`.
+Open the solution `OpenDrop.sln` in Visual Studio and run `OpenDrop.App`.
 Run the app on two Windows machines on the same LAN: devices should appear in the grid. Select a device and drag files onto the drop area to send.
 
 Incoming files are saved to:
-`%LocalAppData%\\AirDropLike\\Incoming`
+`%LocalAppData%\\OpenDrop\\Incoming`
 
 ## Security Notes (Current Skeleton)
-- Payload encryption: each transfer session derives an AEAD key + base nonce from an X25519 shared secret via HKDF-SHA256; each chunk uses a unique per-chunk nonce and binds AAD to `(sessionId, offset, chunkIndex)`.
+- Payload encryption: each transfer session derives an AEAD key + base nonce from an ECDH shared secret via HKDF-SHA256; each chunk uses a unique per-chunk nonce and binds AAD to `(sessionId, offset, chunkIndex)`.
 - Integrity: each encrypted chunk includes SHA-256 validation; the final file hash is verified before finalizing.
-- Path safety: filenames are sanitized (`AirDropLike.Core/Security/PathSafety.cs`) to prevent directory traversal.
+- Path safety: filenames are sanitized (`OpenDrop.Core/Security/PathSafety.cs`) to prevent directory traversal.
 - Abuse controls: simple per-remote IP token-bucket rate limiting in the server.
 
 ### Known Gaps

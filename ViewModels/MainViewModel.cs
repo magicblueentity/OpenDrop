@@ -1,11 +1,11 @@
 using System.Collections.ObjectModel;
-using AirDropLike.Core.Discovery;
-using AirDropLike.Core.Devices;
-using AirDropLike.Infrastructure.Transfer;
+using OpenDrop.Core.Discovery;
+using OpenDrop.Core.Devices;
+using OpenDrop.Infrastructure.Transfer;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.Extensions.Logging;
 
-namespace AirDropLike.App.ViewModels;
+namespace OpenDrop.App.ViewModels;
 
 public sealed partial class MainViewModel : ObservableObject, IAsyncDisposable
 {

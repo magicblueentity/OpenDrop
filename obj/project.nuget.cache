@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uf2KWEpvtt4=",
+  "dgSpecHash": "gcUXfY5zTC8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\samue\\OneDrive\\ANCORATE\\andere Ideen\\AirDrop\\AirDropLike.App.csproj",
+  "projectFilePath": "C:\\Users\\samue\\OneDrive\\ANCORATE\\andere Ideen\\AirDrop\\OpenDrop.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samue\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\communitytoolkit.winui.notifications\\7.1.2\\communitytoolkit.winui.notifications.7.1.2.nupkg.sha512",

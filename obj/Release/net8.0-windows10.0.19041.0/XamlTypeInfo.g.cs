@@ -10,22 +10,22 @@
 using System.Diagnostics.CodeAnalysis;
 
 
-namespace AirDropLike.App
+namespace OpenDrop.App
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
-        private global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -63,7 +63,7 @@ namespace AirDropLike.App
     }
 }
 
-namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
+namespace OpenDrop.App.OpenDrop_App_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -72,15 +72,15 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -130,7 +130,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -169,7 +169,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -234,7 +234,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
             _typeNameTable[4] = "Windows.UI.Color";
             _typeNameTable[5] = "System.ValueType";
             _typeNameTable[6] = "Byte";
-            _typeNameTable[7] = "AirDropLike.App.Views.MainPage";
+            _typeNameTable[7] = "OpenDrop.App.Views.MainPage";
             _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
@@ -250,7 +250,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
             _typeTable[4] = typeof(global::Windows.UI.Color);
             _typeTable[5] = typeof(global::System.ValueType);
             _typeTable[6] = typeof(global::System.Byte);
-            _typeTable[7] = typeof(global::AirDropLike.App.Views.MainPage);
+            _typeTable[7] = typeof(global::OpenDrop.App.Views.MainPage);
             _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
@@ -292,13 +292,13 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_7_MainPage() { return new global::AirDropLike.App.Views.MainPage(); }
+        private object Activate_7_MainPage() { return new global::OpenDrop.App.Views.MainPage(); }
         private object Activate_10_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_Color() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Color).TypeHandle);
         private void StaticInitializer_5_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
         private void StaticInitializer_6_Byte() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Byte).TypeHandle);
-        private void StaticInitializer_7_MainPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::AirDropLike.App.Views.MainPage).TypeHandle);
+        private void StaticInitializer_7_MainPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::OpenDrop.App.Views.MainPage).TypeHandle);
         private void StaticInitializer_10_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_12_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
@@ -317,8 +317,8 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType userType;
+            global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -326,7 +326,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.StaticInitializer = StaticInitializer_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
@@ -335,19 +335,19 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 break;
 
             case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Boolean
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  Windows.UI.Color
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_4_Color;
                 userType.AddMemberName("A");
                 userType.AddMemberName("R");
@@ -357,20 +357,20 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 break;
 
             case 5:   //  System.ValueType
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.StaticInitializer = StaticInitializer_5_ValueType;
                 xamlType = userType;
                 break;
 
             case 6:   //  Byte
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_6_Byte;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 7:   //  AirDropLike.App.Views.MainPage
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+            case 7:   //  OpenDrop.App.Views.MainPage
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_7_MainPage;
                 userType.StaticInitializer = StaticInitializer_7_MainPage;
                 userType.SetIsLocalType();
@@ -378,15 +378,15 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 break;
 
             case 8:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 9:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 10:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_10_TreeViewNode;
                 userType.StaticInitializer = StaticInitializer_10_TreeViewNode;
                 userType.AddMemberName("Children");
@@ -401,11 +401,11 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 break;
 
             case 11:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 12:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_12_IList;
                 userType.CollectionAdd = VectorAdd_12_IList;
                 userType.SetIsReturnTypeStub();
@@ -413,7 +413,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
                 break;
 
             case 13:   //  Int32
-                xamlType = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -577,85 +577,85 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember xamlMember = null;
-            global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType userType;
+            global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember xamlMember = null;
+            global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
             case "Windows.UI.Color.A":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "A", "Byte");
                 xamlMember.Getter = get_1_Color_A;
                 xamlMember.Setter = set_1_Color_A;
                 break;
             case "Windows.UI.Color.R":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "R", "Byte");
                 xamlMember.Getter = get_2_Color_R;
                 xamlMember.Setter = set_2_Color_R;
                 break;
             case "Windows.UI.Color.G":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "G", "Byte");
                 xamlMember.Getter = get_3_Color_G;
                 xamlMember.Setter = set_3_Color_G;
                 break;
             case "Windows.UI.Color.B":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "B", "Byte");
                 xamlMember.Getter = get_4_Color_B;
                 xamlMember.Setter = set_4_Color_B;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_5_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_6_TreeViewNode_Content;
                 xamlMember.Setter = set_6_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_7_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_8_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_9_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_9_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_10_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_10_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_11_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -718,10 +718,10 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlUserType : global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlSystemBaseType
+    internal partial class XamlUserType : global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
-        global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Microsoft.UI.Xaml.Markup.IXamlType _baseType;
         global::Microsoft.UI.Xaml.Markup.IXamlType _boxedType;
         bool _isArray;
@@ -736,7 +736,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
+        public XamlUserType(global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
             global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
@@ -953,7 +953,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
-        global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -962,7 +962,7 @@ namespace AirDropLike.App.AirDropLike_App_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::AirDropLike.App.AirDropLike_App_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::OpenDrop.App.OpenDrop_App_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;
