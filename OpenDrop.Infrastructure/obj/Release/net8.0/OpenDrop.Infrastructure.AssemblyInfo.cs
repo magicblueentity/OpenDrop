@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenDrop.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae0c1281a60db0ee8b7b1e77ae3ea583c6b0ce2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98f1968b6d90d3977b8d7392a6eacb980698be94")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenDrop.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenDrop.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
