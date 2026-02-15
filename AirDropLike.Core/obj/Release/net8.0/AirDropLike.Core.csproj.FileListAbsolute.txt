@@ -1,0 +1,12 @@
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\bin\Release\net8.0\AirDropLike.Core.deps.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\bin\Release\net8.0\AirDropLike.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\bin\Release\net8.0\AirDropLike.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.AssemblyInfoInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.AssemblyInfo.cs
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.sourcelink.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\refint\AirDropLike.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\AirDropLike.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Core\obj\Release\net8.0\ref\AirDropLike.Core.dll

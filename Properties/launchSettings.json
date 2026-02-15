@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AirDropLike.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AirDropLike.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

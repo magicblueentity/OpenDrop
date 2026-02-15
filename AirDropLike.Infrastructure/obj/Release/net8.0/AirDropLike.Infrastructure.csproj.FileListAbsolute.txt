@@ -1,0 +1,16 @@
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.AssemblyInfo.cs
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.sourcelink.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\bin\Release\net8.0\AirDropLike.Infrastructure.deps.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\bin\Release\net8.0\AirDropLike.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\bin\Release\net8.0\AirDropLike.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\bin\Release\net8.0\AirDropLike.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\bin\Release\net8.0\AirDropLike.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropL.40ABF89F.Up2Date
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\refint\AirDropLike.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\AirDropLike.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\AirDropLike.Infrastructure\obj\Release\net8.0\ref\AirDropLike.Infrastructure.dll
