@@ -1,0 +1,16 @@
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Debug\net8.0\OpenDrop.Infrastructure.deps.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Debug\net8.0\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Debug\net8.0\OpenDrop.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Debug\net8.0\OpenDrop.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Debug\net8.0\OpenDrop.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.AssemblyInfo.cs
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.sourcelink.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.A4A2CEA9.Up2Date
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\refint\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\OpenDrop.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Debug\net8.0\ref\OpenDrop.Infrastructure.dll

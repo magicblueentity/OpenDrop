@@ -1,0 +1,16 @@
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Release\net8.0\win-x64\OpenDrop.Infrastructure.deps.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Release\net8.0\win-x64\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Release\net8.0\win-x64\OpenDrop.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Release\net8.0\win-x64\OpenDrop.Core.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\bin\Release\net8.0\win-x64\OpenDrop.Core.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.AssemblyInfo.cs
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.sourcelink.json
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.A4A2CEA9.Up2Date
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\refint\OpenDrop.Infrastructure.dll
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\OpenDrop.Infrastructure.pdb
+C:\Users\samue\OneDrive\ANCORATE\andere Ideen\AirDrop\OpenDrop.Infrastructure\obj\Release\net8.0\win-x64\ref\OpenDrop.Infrastructure.dll

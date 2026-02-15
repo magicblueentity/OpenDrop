@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.24\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.24\build\Microsoft.NET.ILLink.Tasks.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.7705\buildTransitive\Microsoft.Windows.SDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.7705\buildTransitive\Microsoft.Windows.SDK.BuildTools.props')" />
@@ -29,6 +30,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\1.8.260209005\buildTransitive\Microsoft.WindowsAppSDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\1.8.260209005\buildTransitive\Microsoft.WindowsAppSDK.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\samue\.nuget\packages\microsoft.net.illink.tasks\8.0.24</PkgMicrosoft_NET_ILLink_Tasks>
     <PkgMicrosoft_Windows_SDK_BuildTools_MSIX Condition=" '$(PkgMicrosoft_Windows_SDK_BuildTools_MSIX)' == '' ">C:\Users\samue\.nuget\packages\microsoft.windows.sdk.buildtools.msix\1.7.20250829.1</PkgMicrosoft_Windows_SDK_BuildTools_MSIX>
     <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\samue\.nuget\packages\microsoft.web.webview2\1.0.3719.77</PkgMicrosoft_Web_WebView2>
     <PkgMicrosoft_WindowsAppSDK_WinUI Condition=" '$(PkgMicrosoft_WindowsAppSDK_WinUI)' == '' ">C:\Users\samue\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260204000</PkgMicrosoft_WindowsAppSDK_WinUI>
