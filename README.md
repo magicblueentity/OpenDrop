@@ -12,6 +12,10 @@ This repository does **not** implement Apple’s proprietary/private AirDrop sta
 
 This project targets an **open** and **secure** AirDrop-like UX that can be extended to other platforms with compatible clients.
 
+
+## Python/PyQt6 Rewrite
+A complete Python + PyQt6 rewrite is now available under `pyqt6_opendrop/` with equivalent discovery, encrypted chunk transfer, and desktop UI flow.
+
 ## Project Structure
 - `OpenDrop.Core/`: domain models + interfaces (discovery/crypto/transfer)
 - `OpenDrop.Infrastructure/`: discovery + crypto + transfer server/client implementation
